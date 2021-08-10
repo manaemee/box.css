@@ -1,0 +1,53 @@
+body {
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  margin: 5px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.color__bg {
+  width: 200px;
+  height: 350px;
+  border: 5px solid white;
+}
+
+.color__info {
+  background-color: white;
+  width: 200px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: -20px;
+}
+
+#first .color:first-child .color__bg {
+  background-color: tomato;
+}
+
+#first .color:nth-child(2) .color__bg {
+  background-color: teal;
+}
+
+#second .color:first-child .color__bg {
+  background-color: burlywood;
+}
+
+#second .color:last-child .color__bg {
+  background-color: thistle;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+}
